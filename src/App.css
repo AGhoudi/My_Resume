@@ -55,7 +55,25 @@ span {
 p {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 21px;
+}
+
+.phone {
+    padding: 0 15px;
+}
+
+.mail {
+    padding: 0 10px;
+    margin-left: 12px;
+}
+
+.home {
+    padding: 0 10px;
+    margin-left: 45px;
+}
+
+hr {
+    border: 2px solid #2056ac
 }
 
 
