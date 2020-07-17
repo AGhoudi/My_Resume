@@ -21,22 +21,28 @@ function App() {
             <hr/>
             <section className="competences">
               <div className="mesAttouts">
-                  <h2><span>&#10024;</span>MES ATOUTS</h2>
+                  <h2><span role="img" aria-label="mes atouts">&#10024;</span>MES ATOUTS</h2>
                   <ul>
-                    <li>Fiable</li>
-                    <li>Organisé</li>
-                    <li>Rigoureux</li>
-                    <li>Créatif</li>
-                    <li>Empathique</li>
+                    <li><span className="letter">F</span>iable</li>
+                    <li><span className="letter">O</span>rganisé</li>
+                    <li><span className="letter">R</span>igoureux</li>
+                    <li><span className="letter">C</span>réatif</li>
+                    <li><span className="letter">E</span>mpathique</li>
                   </ul>
+                  <hr/>
               </div>
               <div className="mesCompetences">
-                      <h2><span>&#127919;</span>MES COMPÉTENCES</h2>
+                      <h2><span role="img" aria-label="mes compétences">&#127919;</span>MES COMPÉTENCES</h2>
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
-                        <p>Organisé</p>
-                        <p>Rigoureux</p>
-                        <p>Créatif</p>
-                        <p>Empathique</p>           
+                        <p>Mettre en place le responsive et l'utilisation des médias queries</p>
+                        <p>Réaliser un site web à l'aide de React et Node</p>
+                        <p>Optimiser un site afin de le rendre plus rapide</p>
+                        <p>Créer des sites intéractifs</p>
+                        <p>Concevoir un blog en PHP</p>           
+                        <p>Sécuriser des pages contre les failles</p>           
+                        <p>Gérer une base de données</p>           
+                        <p>Versionner un code source</p>           
+                        <p>Créer un projet sur le framework symfony</p>           
               </div>
             </section>
         </div>

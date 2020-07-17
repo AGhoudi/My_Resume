@@ -37,6 +37,8 @@ img {
     height: 260px;
     border-radius: 100%;
     margin: 30px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;    
 }
 
 .work {
@@ -59,6 +61,7 @@ p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 21px;
+    margin: 5px auto;
 }
 
 .phone {
@@ -115,12 +118,16 @@ li {
 
 .mesCompetences {
     width: 60%;
-    background-color: teal;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+}
+
+.letter {
+    color: #2056ac;
+    text-shadow: 1px 1px #000;    
 }
 
 
