@@ -19,35 +19,6 @@ body {
     border: 2px solid #fff;
 }
 
-.presentation {
-    display: flex;
-}
-
-.picture {
-    width: 25vw;
-    border-radius: 100%;
-    z-index: 2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    right: 30px;
-}
-
-img {
-    width: 260px;
-    height: 260px;
-    border-radius: 100%;
-    margin: 30px 30px;
-    border: 2px solid #fff;
-    cursor: pointer;    
-}
-
-.work {
-    width: 60vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-}
-
 h1 {
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -64,22 +35,8 @@ p {
     margin: 5px auto;
 }
 
-.phone {
-    padding: 0 15px;
-}
-
-.mail {
-    padding: 0 10px;
-    margin-left: 12px;
-}
-
-.home {
-    padding: 0 10px;
-    margin-left: 45px;
-}
-
 hr {
-    border: 2px solid #2056ac;
+    border: 1px solid #2056ac;
 }
 
 .competences {

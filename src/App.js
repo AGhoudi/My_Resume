@@ -1,23 +1,12 @@
 import React from 'react';
-import logo from '../src/assets/cv.jpg'
 import './App.css';
+import TopResume from './components/TopResume';
 
 function App() {
   return (
     <div className="App">
         <div className="main_content">
-            <section className="presentation">
-              <div className="picture">
-                  <img  src={logo} alt="cv_picture"/>
-              </div>
-              <div className="work">
-                  <h1><span>&#9646;</span> ALI GHOUDI</h1>
-                  <p className="description">Développeur Web Fullstack</p>
-                  <p><span className="phone">&#9743;</span> 07 - 82 - 18 - 10 -34</p>
-                  <p><span className="mail">&#9993;</span> ali.ghoudi@gmail.com</p>
-                  <p><span className="home" role="img" aria-label="house">&#127969;</span> SAINT-ÉTIENNE, FRANCE</p>                
-              </div>
-            </section>            
+            <TopResume />           
             <hr/>
             <section className="competences">
               <div className="mesAttouts">
@@ -30,6 +19,14 @@ function App() {
                     <li><span className="letter">E</span>mpathique</li>
                   </ul>
                   <hr/>
+                  <h2><span role="img" aria-label="mes atouts">&#10024;</span>MES ATOUTS</h2>
+                  <ul>
+                    <li><span className="letter">F</span>iable</li>
+                    <li><span className="letter">O</span>rganisé</li>
+                    <li><span className="letter">R</span>igoureux</li>
+                    <li><span className="letter">C</span>réatif</li>
+                    <li><span className="letter">E</span>mpathique</li>
+                  </ul>
               </div>
               <div className="mesCompetences">
                       <h2><span role="img" aria-label="mes compétences">&#127919;</span>MES COMPÉTENCES</h2>
