@@ -2,7 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
 body {
-    margin: 0 auto;
+    margin: 0;
+}
+
+.app {
+    margin: 0 ;
     padding: 0;
     background-color: #2056ac;
 }
@@ -10,7 +14,8 @@ body {
 .main_content {
     width: 85vw;
     height: auto;
-    margin: 25px auto;
+    margin: 0 auto;
+    padding: 25px 0;
     background-color: #e3f0f8;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -87,6 +92,37 @@ li {
     text-shadow: 1px 1px #000;    
 }
 
+.change_color {
+    display: flex;
+    justify-content: center;
+}
 
+.color_one {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #ffbe4a;
+    color: #fef5e6;
+    margin: 0 20px;
+    cursor: pointer;
+}
 
+.color_two {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #174545;
+    color: #6d9190;
+    margin: 0 20px;
+    cursor: pointer;
+}
 
+.color_three {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #de4b4c;
+    color: #dd7381;
+    margin: 0 20px;
+    cursor: pointer;
+}

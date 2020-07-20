@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopResume.css';
-import logo from '../assets/cv.jpg'
+import logo from '../../assets/cv.jpg';
 
 class TopResume extends React.Component {
 
