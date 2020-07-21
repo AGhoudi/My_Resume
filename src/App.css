@@ -5,91 +5,26 @@ body {
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
 .app {
     margin: 0 ;
     padding: 0;
     background-color: #2056ac;
 }
 
-.main_content {
-    width: 85vw;
-    height: auto;
-    margin: 0 auto;
-    padding: 25px 0;
-    background-color: #e3f0f8;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border: 2px solid #fff;
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-span {
-    color: #2056ac;  
-}
-
 p {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 21px;
-    margin: 5px auto;
+    margin: 8px auto;
 }
 
 hr {
-    border: 1px solid #2056ac;
-}
-
-.competences {
-    display: flex;
-}
-
-.mesAttouts {
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    border-right: 2px solid #2056ac;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding-left: 35px;
-    width:200px;
-    max-width: 300px;
-    height:auto;
-    text-align:center;
-}
-
-li {
-    width:100px; /* largeur de la zone de texte */
-    padding: 0 10px; /* aération interne de la zone de texte */
-    vertical-align:middle;
-    display:inline-block;
-    line-height:1.2; /* on rétablit le line-height */
-    text-align:left;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px; 
-}
-
-.mesCompetences {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-}
-
-.letter {
-    color: #2056ac;
-    text-shadow: 1px 1px #000;    
+    border: 1.5px solid #fff;
 }
 
 .change_color {
@@ -125,4 +60,28 @@ li {
     color: #dd7381;
     margin: 0 20px;
     cursor: pointer;
+}
+
+.color_four {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #2056ac;
+    color: #e3f0f8;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.formations {
+    display: flex;
+}
+
+.langage {
+    width: 40vw;
+    background-color: tomato;
+}
+
+.ma_formation {
+    width: 60vw;
+    background-color: teal;
 }

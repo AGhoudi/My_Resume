@@ -12,7 +12,7 @@ class TopResume extends React.Component {
                         <img  src={logo} alt="cv_picture"/>
                     </div>
                     <div className="work">
-                        <h1><span>&#9646;</span> ALI GHOUDI</h1>
+                        <h1><span role="img" aria-label="name">&#11088;</span> ALI GHOUDI</h1>
                         <p className="description">Développeur Web Fullstack</p>
                         <p><span className="mail">&#9993;</span> ali.ghoudi@gmail.com</p>
                         <p><span className="home" role="img" aria-label="house">&#127969;</span> SAINT-ÉTIENNE, FRANCE</p>                
