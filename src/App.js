@@ -58,6 +58,9 @@ class App extends React.Component {
                         </div>
                         <div className="ma_formation">
                             <h2><span role="img" aria-label="formation">&#127891;</span>MA FORMATION</h2>
+                            <p>Formation 1</p>
+                            <p>Formation 2</p>
+                            <p>Formation 3</p>
                         </div>
                     </section>
                 </Main>
