@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+$os_text: 'Oswald', sans-serif;
+$la_text: 'Lato', sans-serif;
+$text_center: center;
+
+$color_primary: #e3f0f8;
+$color_secondary: #fff;
+$color_background: #2056ac;
+$color_app: #e3f0f8;
+$color_dark: #000;
+
+$color_one_major: #ffbe4a;
+$color_one_minor: #fef5e6;
+$color_two_major: #174545;
+$color_two_minor: #6d9190;
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin color {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+body, .app {
+    margin: 0;
+}
+
+h2 {
+    text-align: $text_center;
+    font-family: $os_text;
+}
+
+.app {
+    padding: 0;
+    background-color: $color_background;
+}
+
+p {
+    text-align: $text_center;
+    font-family: $la_text;
+    font-size: 21px;
+    margin: 8px auto;
+}
+
+hr {
+    border: 1.5px solid $color_secondary;
+}
+
+.change_color {
+    @include flex;
+    justify-content: center;
+}
+
+.color_one {
+    @include color;
+    background-color: $color_one_major;
+    color: $color_one_minor;
+}
+
+.color_two {
+    @include color;
+    background-color: $color_two_major;
+    color: $color_two_minor;
+}
+
+.color_three {
+    @include color;
+    background-color: #de4b4c;
+    color: #dd7381;
+}
+
+.color_four {
+    @include color;
+    background-color: $color_background;
+    color: $color_app;
+}
+
+.formations {
+    @include flex;
+}
+
+.langage {
+    width: 40vw;
+    border-right: 2px solid $color_secondary;
+}
+
+.ma_formation {
+    width: 60vw;
+    background-color: teal;
+}
+
+.item {
+    width: 100%;
+    height: 100px;
+    @include flex;
+    align-items: center;
+    margin: 30px auto;
+    color: $color_dark;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: italic;
+    font-family: $os_text;
+}
+
+.item_img {
+    width: 100px;
+    height: 100%;
+    object-fit: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+}

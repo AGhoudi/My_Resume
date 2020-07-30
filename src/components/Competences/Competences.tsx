@@ -1,7 +1,8 @@
 import React from 'react';
 import './Competences.css';
+import { Color } from '../Main/Main';
 
-const Competences = (props) => {   
+const Competences: React.FC<Color> = (props:any) => {   
 
     return (
         <React.Fragment>

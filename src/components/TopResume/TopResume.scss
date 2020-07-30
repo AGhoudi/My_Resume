@@ -1,0 +1,91 @@
+@import '../../App.scss';
+
+$breakpoints: 800px;
+
+@mixin mobile {
+    @media (max-width: #{$breakpoints}) {
+        @content;
+    }
+}
+
+h1 {
+    text-align: $text_center;
+    font-family: $os_text;
+}
+
+.presentation {
+    @include flex;
+    @include mobile{
+        @include flex;
+        flex-direction: column;
+    }
+
+    &__picture {
+        width: 25vw;
+        border-radius: 100%;
+        z-index: 2;
+        background-repeat: no-repeat;
+        background-size: cover;
+        right: 30px;
+        @include mobile {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__work {
+        width: 60vw;
+        @include mobile {
+            width: 100%;
+        }
+        @include flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &--description {
+            padding-left: 33px;
+            @include mobile {
+                padding-left: 0;
+                text-align: $text_center;
+            }
+        }
+        
+        &--mail {
+            padding: 0 10px;
+            margin-left: 12px;
+            @include mobile {
+                padding: 0;
+                margin-left: 0;
+                text-align: $text_center;
+            }
+        }
+        
+        &--home {
+            padding: 0 10px;
+            margin-left: 52px;
+            @include mobile {
+                padding: 0 ;
+                margin-left: 0;
+                text-align: $text_center;
+            }
+        }  
+    }
+}
+
+img {
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    margin: 30px 30px;
+    @include mobile {
+        margin: 30px auto;
+    }
+    border: 2px solid $color_secondary;
+    cursor: pointer;    
+    &:hover {
+        opacity: 0.80;
+        filter: sepia(85%);
+        border: 2px solid $color_dark;
+    }    
+}

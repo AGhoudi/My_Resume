@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import * as React from 'react';
+import './App.scss';
 import TopResume from './components/TopResume/TopResume';
 import Main from './components/Main/Main';
 import Competences from './components/Competences/Competences';
@@ -10,19 +10,20 @@ import symfony from './assets/symfony.jpg';
 import react from './assets/react.png';
 import node from './assets/node.png';
 
-class App extends React.Component {
 
-    constructor() {
-        super();
+class App extends React.Component<any, any> {
+
+    constructor(props : any) {
+        super(props);
         this.state = {
             appColor: localStorage.getItem("appColor"),
             mainColor: localStorage.getItem("mainColor")
         }
     }
 
-    handleClick = (event) => {
-        const appColor = event.target.getAttribute('data-appcolor');
-        const mainColor = event.target.getAttribute('data-maincolor');
+    handleClick = (event: any): void => {
+        const appColor:string = event.target.getAttribute('data-appcolor');
+        const mainColor:string = event.target.getAttribute('data-maincolor');
         this.setState({
             appColor: appColor,
             mainColor: mainColor
@@ -32,7 +33,6 @@ class App extends React.Component {
     }
 
     render() {
-        console.log('render')
         return (            
             <div className="app" style={{backgroundColor: this.state.appColor}}>
                 <Main  color={this.state.mainColor}>
@@ -58,7 +58,8 @@ class App extends React.Component {
                         </div>
                         <div className="ma_formation">
                             <h2><span role="img" aria-label="formation">&#127891;</span>MA FORMATION</h2>
-                            <p>Formation 1</p>
+                            <div><span>Aujourd'hui - 2016</span> <p>Apprentissage autodidacte de l'informatique</p> UDEMY - YOUTUBE - W3SCHOOLS - FREECODECAMP</div>
+                            <div><span>2019(En cours)</span> <p>PARCOURS DÉVELOPPEUR D'APPLICATIONS PHP/SYMFONY</p> Openclassrooms : Formation à distance, France</div>
                             <p>Formation 2</p>
                             <p>Formation 3</p>
                         </div>
