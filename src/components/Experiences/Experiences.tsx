@@ -1,14 +1,14 @@
 import React from 'react';
-import './Competences.scss';
-import { Color } from '../Main/Main';
+import './Experiences.scss';
 
-const Competences: React.FC<Color> = (props:any) => {   
+
+const Experiences: React.FC = (props:any) => {   
 
     return (
         <React.Fragment>
             <section className="competences">
                 <div className="mes__atouts">
-                    <h2><span role="img" aria-label="mes atouts">&#10024;</span>MES ATOUTS</h2>
+                    <h2><span role="img" aria-label="mes atouts">&#127568;</span>LANGUES</h2>
                     <ul>
                     <li><span className="mes__atouts--letter" style={{color: props.color}}>F</span>iable</li>
                     <li><span className="mes__atouts--letter" style={{color: props.color}}>O</span>rganisé</li>
@@ -17,7 +17,7 @@ const Competences: React.FC<Color> = (props:any) => {
                     <li><span className="mes__atouts--letter" style={{color: props.color}}>E</span>mpathique</li>
                     </ul>
                     <hr/>
-                    <h2><span role="img" aria-label="mes projets">&#127912;</span>MES PROJETS</h2>
+                    <h2><span role="img" aria-label="mes projets">&#128083;</span>CENTRES D'INTÉRÊTS</h2>
                     
                     <p><a className="mes__atouts--link" href="https://serene-island-83111.herokuapp.com/" target="_blank" rel="noopener noreferrer">Smartbrain</a></p>
                     <p><a className="mes__atouts--link" href="https://link1986.github.io/Random-quote-machine/" target="_blank" rel="noopener noreferrer">Random Quote Machine</a></p>
@@ -27,7 +27,7 @@ const Competences: React.FC<Color> = (props:any) => {
                     
                 </div>
                 <div className="mes__competences">
-                        <h2><span role="img" aria-label="mes compétences">&#127919;</span>MES COMPÉTENCES</h2>
+                        <h2><span role="img" aria-label="mes compétences">&#128302;</span>MES EXPÉRIENCES</h2>
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
                         <p>Mettre en place le responsive et l'utilisation des médias queries</p>
                         <p>Réaliser un site web à l'aide de React et Node</p>
@@ -45,4 +45,4 @@ const Competences: React.FC<Color> = (props:any) => {
         
 }
 
-export default Competences;
+export default Experiences;

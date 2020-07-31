@@ -1,0 +1,86 @@
+@import '../../App.scss';
+
+$breakpoints: 800px;
+
+@mixin mobile {
+    @media (max-width: #{$breakpoints}) {
+        @content;
+    }
+}
+
+.competences {
+    @include flex;
+    @include mobile {
+        @include flex;
+        flex-direction: column;
+    }
+}
+
+.mes__atouts {
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    border-right: 2px solid $color_secondary;
+    text-align: $text-center;
+    font-family: $os_text;
+    @include mobile {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        border-right: none;
+        text-align: $text-center;
+        font-family: $os_text;
+    }
+
+    & ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding-left: 35px;
+        width:200px;
+        max-width: 300px;
+        height:auto;
+        text-align: $text-center;
+
+        & li {
+            width: 100px; 
+            padding: 0 10px; 
+            vertical-align: middle;
+            display: inline-block;
+            line-height: 1.2; 
+            text-align: left;
+            font-family: $la_text;
+            font-size: 20px; 
+        }
+    }
+
+    &--letter {
+        color: $color_background;
+        text-shadow: 1px 1px $color_dark;    
+    }
+
+    &--link {
+        text-decoration: none;
+        color: $color_dark;
+        font-weight: 500;
+        font-size: 22px;
+        font-style: italic;
+        font-family: $os_text;
+    }
+}
+
+.mes__competences {
+    width: 60%;
+    @include flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: $text-center;
+    font-family: $os_text;
+    @include mobile {
+        width: 100%;
+        @include flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: $text-center;
+        font-family: $os_text;
+    }
+}

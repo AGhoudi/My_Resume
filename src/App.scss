@@ -10,6 +10,7 @@ $color_secondary: #fff;
 $color_background: #2056ac;
 $color_app: #e3f0f8;
 $color_dark: #000;
+$color_grey: #333;
 
 $color_one_major: #ffbe4a;
 $color_one_minor: #fef5e6;
@@ -18,6 +19,13 @@ $color_two_minor: #6d9190;
 
 @mixin flex {
     display: flex;
+}
+
+@mixin gradient {
+    background: #005AA7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
 }
 
 @mixin color {
@@ -35,6 +43,9 @@ body, .app {
 h2 {
     text-align: $text_center;
     font-family: $os_text;
+    &:hover {
+        @include gradient;
+    }
 }
 
 .app {
@@ -56,63 +67,28 @@ hr {
 .change_color {
     @include flex;
     justify-content: center;
-}
 
-.color_one {
-    @include color;
-    background-color: $color_one_major;
-    color: $color_one_minor;
-}
+    &--one {
+        @include color;
+        background-color: $color_one_major;
+        color: $color_one_minor;
+    }
 
-.color_two {
-    @include color;
-    background-color: $color_two_major;
-    color: $color_two_minor;
-}
+    &--two {
+        @include color;
+        background-color: $color_two_major;
+        color: $color_two_minor;
+    }
 
-.color_three {
-    @include color;
-    background-color: #de4b4c;
-    color: #dd7381;
-}
+    &--three {
+        @include color;
+        background-color: #de4b4c;
+        color: #dd7381;
+    }
 
-.color_four {
-    @include color;
-    background-color: $color_background;
-    color: $color_app;
-}
-
-.formations {
-    @include flex;
-}
-
-.langage {
-    width: 40vw;
-    border-right: 2px solid $color_secondary;
-}
-
-.ma_formation {
-    width: 60vw;
-    background-color: teal;
-}
-
-.item {
-    width: 100%;
-    height: 100px;
-    @include flex;
-    align-items: center;
-    margin: 30px auto;
-    color: $color_dark;
-    font-weight: 500;
-    font-size: 22px;
-    font-style: italic;
-    font-family: $os_text;
-}
-
-.item_img {
-    width: 100px;
-    height: 100%;
-    object-fit: 100% 100%;
-    display: inline-block;
-    vertical-align: middle;
+    &--four {
+        @include color;
+        background-color: $color_background;
+        color: $color_app;
+    }
 }

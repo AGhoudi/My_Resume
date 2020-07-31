@@ -1,20 +1,18 @@
 @import '../../App.scss';
 
-@mixin border {
+@mixin main {
+    width: 85vw;
+    height: auto;
+    margin: 0 auto;
+    padding: 25px 0;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;    
 }
 
-
-
 .main__content {
-    width: 85vw;
-    height: auto;
-    margin: 0 auto;
-    padding: 25px 0;
-    background-color: $color_primary;
-    @include border;
+    @include main;    
+    background-color: $color_primary;    
     border: 2px solid $color_secondary;
 }

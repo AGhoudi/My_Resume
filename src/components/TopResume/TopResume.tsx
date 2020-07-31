@@ -20,5 +20,4 @@ const TopResume: React.FC = () => {
     );
 }
 
-
 export default TopResume;
