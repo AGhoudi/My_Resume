@@ -75,7 +75,7 @@ const Formations: React.FC = () => {
                     </div>
                     <div className="ma__formation__contenu">
                         <span  className="ma__formation__contenu--date">2015 - 2014</span> 
-                        <p className="ma__formation__contenu--apprentissage">DU droits des affaires appliqué aux établissements de santé</p>
+                        <p className="ma__formation__contenu--apprentissage">DU droit des affaires appliqué aux établissements de santé</p>
                         <span  className="ma__formation__contenu--lieu">Université Jean Monnet : Saint-Étienne, France</span> 
                     </div>
                 </div>

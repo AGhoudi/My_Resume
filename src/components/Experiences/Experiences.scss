@@ -1,1 +1,10 @@
 @import '../../App.scss';
+
+.experiences {
+    @include flex;
+}
+
+.langues {
+    width: 40vw;
+    border-right: 2px solid $color_secondary;
+}

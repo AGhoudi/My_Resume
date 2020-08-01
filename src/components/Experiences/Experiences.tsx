@@ -6,15 +6,13 @@ const Experiences: React.FC = (props:any) => {
 
     return (
         <React.Fragment>
-            <section className="competences">
-                <div className="mes__atouts">
-                    <h2><span role="img" aria-label="mes atouts">&#127568;</span>LANGUES</h2>
+            <section className="experiences">
+                <div className="langues">
+                    <h2><span role="img" aria-label="langues">&#127568;</span>LANGUES</h2>
                     <ul>
-                    <li><span className="mes__atouts--letter" style={{color: props.color}}>F</span>iable</li>
-                    <li><span className="mes__atouts--letter" style={{color: props.color}}>O</span>rganisé</li>
-                    <li><span className="mes__atouts--letter" style={{color: props.color}}>R</span>igoureux</li>
-                    <li><span className="mes__atouts--letter" style={{color: props.color}}>C</span>réatif</li>
-                    <li><span className="mes__atouts--letter" style={{color: props.color}}>E</span>mpathique</li>
+                    <li>Français</li>
+                    <li>Anglais</li>
+                    <li>Allemand</li>
                     </ul>
                     <hr/>
                     <h2><span role="img" aria-label="mes projets">&#128083;</span>CENTRES D'INTÉRÊTS</h2>
