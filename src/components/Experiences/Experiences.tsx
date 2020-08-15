@@ -7,13 +7,10 @@ const Experiences: React.FC = (props:any) => {
     return (
         <React.Fragment>
             <section className="experiences">
-                <div className="langues">
-                    <h2><span role="img" aria-label="langues">&#127568;</span>LANGUES</h2>
-                    <ul>
-                    <li>Français</li>
-                    <li>Anglais</li>
-                    <li>Allemand</li>
-                    </ul>
+                <div className="realisations">
+                    <h2><span role="img" aria-label="réalisations">&#127913;</span>MES RÉALISATIONS</h2>
+                    <p><a className="mes__atouts--link" href="https://serene-island-83111.herokuapp.com/" target="_blank" rel="noopener noreferrer">Voir mon profil github</a></p>
+                    <p><a className="mes__atouts--link" href="https://link1986.github.io/Random-quote-machine/" target="_blank" rel="noopener noreferrer">Voir mon profil Codepen</a></p>
                     <hr/>
                     <h2><span role="img" aria-label="mes projets">&#128083;</span>CENTRES D'INTÉRÊTS</h2>
                     
@@ -24,8 +21,8 @@ const Experiences: React.FC = (props:any) => {
                     <p><a className="mes__atouts--link" href="https://link1986.github.io/Markdown-Previewer/" target="_blank" rel="noopener noreferrer">Markdown Previewer</a></p>
                     
                 </div>
-                <div className="mes__competences">
-                        <h2><span role="img" aria-label="mes compétences">&#128302;</span>MES EXPÉRIENCES</h2>
+                <div className="mes__experiences">
+                        <h2><span role="img" aria-label="mes expériences">&#128302;</span>MES EXPÉRIENCES</h2>
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
                         <p>Mettre en place le responsive et l'utilisation des médias queries</p>
                         <p>Réaliser un site web à l'aide de React et Node</p>
