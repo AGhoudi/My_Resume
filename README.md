@@ -9,7 +9,7 @@ J'ai décidé de mettre en ligne mon CV, dans un premier temps pour progresser s
 
 ## __Stack utilisé :__
 
-HTML - CSS - Javascript - React
+HTML - SCSS - Javascript - React - TYPESCRIPT
 
 ## __Lien web du projet :__
 
