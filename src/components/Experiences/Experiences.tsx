@@ -26,8 +26,6 @@ const Experiences: React.FC = (props:any) => {
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
                         <p>Mettre en place le responsive et l'utilisation des médias queries</p>
                         <p>Réaliser un site web à l'aide de React et Node</p>
-                        <p>Optimiser un site afin de le rendre plus rapide</p>
-                        <p>Créer des sites intéractifs</p>
                         <p>Concevoir un blog en PHP</p>           
                         <p>Sécuriser des pages contre les failles</p>           
                         <p>Gérer une base de données</p>           
