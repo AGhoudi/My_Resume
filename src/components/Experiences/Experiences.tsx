@@ -25,9 +25,7 @@ const Experiences: React.FC = (props:any) => {
                         <h2><span role="img" aria-label="mes expériences">&#128302;</span>MES EXPÉRIENCES</h2>
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
                         <p>Mettre en place le responsive et l'utilisation des médias queries</p>
-                        <p>Réaliser un site web à l'aide de React et Node</p>
-                        <p>Concevoir un blog en PHP</p>           
-                        <p>Sécuriser des pages contre les failles</p>           
+                        <p>Réaliser un site web à l'aide de React et Node</p>           
                         <p>Gérer une base de données</p>           
                         <p>Versionner un code source</p>           
                         <p>Créer un projet sur le framework symfony</p>           

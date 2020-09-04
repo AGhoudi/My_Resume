@@ -24,4 +24,3 @@ Voici un lien pour voir mon CV:
 ## TODOOOOO
 ## TOD000000000
 ## AGAIN TODO
-## totototo
