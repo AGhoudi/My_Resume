@@ -24,8 +24,7 @@ const Experiences: React.FC = (props:any) => {
                 <div className="mes__experiences">
                         <h2><span role="img" aria-label="mes expériences">&#128302;</span>MES EXPÉRIENCES</h2>
                         <p>Réaliser l'intégration d 'une maquette graphique</p>
-                        <p>Mettre en place le responsive et l'utilisation des médias queries</p>
-                        <p>Réaliser un site web à l'aide de React et Node</p>           
+                        <p>Mettre en place le responsive et l'utilisation des médias queries</p>         
                                   
                      
                 </div>
