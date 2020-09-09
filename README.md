@@ -19,5 +19,3 @@ Voici un lien pour voir mon CV:
 ## Todo2
 ## Hello world
 ## TODO3
-## TODO4
-## TODO10000
