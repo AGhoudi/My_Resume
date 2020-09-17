@@ -15,4 +15,4 @@ HTML - SCSS - Javascript - React - TYPESCRIPT
 
 Voici un lien pour voir mon CV:
 
-~~TODO~~
+
