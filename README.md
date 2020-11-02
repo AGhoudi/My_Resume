@@ -16,13 +16,3 @@ HTML - SCSS - Javascript - React - TYPESCRIPT
 Voici un lien pour voir mon CV:
 
 ## Test
-## Test 1
-## Test 2
-## I AM A NINJA
-### 00000000000
-## NINJA 2
-## NINJA 3
-## NINJA 3
-## NINJA 3
-
-
