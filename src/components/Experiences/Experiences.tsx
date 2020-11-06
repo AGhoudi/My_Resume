@@ -22,7 +22,8 @@ const Experiences: React.FC = (props:any) => {
                     
                 </div>
                 <div className="mes__experiences">
-                        <h2><span role="img" aria-label="mes expériences">&#128302;</span>MES EXPÉRIENCES</h2>                               
+                        <h2><span role="img" aria-label="mes expériences">&#128302;</span>MES EXPÉRIENCES</h2>
+                        test expérience                               
                      
                 </div>
             </section>
