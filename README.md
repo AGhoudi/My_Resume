@@ -14,5 +14,3 @@ HTML - SCSS - Javascript - React - TYPESCRIPT
 ## __Lien web du projet :__
 
 Voici un lien pour voir mon CV:
-
-##Test2
