@@ -1,5 +1,4 @@
-![My_Resume](https://user-images.githubusercontent.com/27373255/131749345-0ff76279-3fdd-4a32-9cef-4f4159d7dac1.png)
-<div align=center><img src="https://user-images.githubusercontent.com/27373255/131180724-f4b371b2-087a-4067-87bf-7550af64d3f5.png" alt="memory-game"/></div>
+<div align=center><img src="https://user-images.githubusercontent.com/27373255/131749345-0ff76279-3fdd-4a32-9cef-4f4159d7dac1.png" alt="My_Resume"/></div>
 <h2 align=center>🎯 Objectif du projet :</h2>
 <p align=center>Il s'agissait de créer mon CV en ligne.</p>
 
