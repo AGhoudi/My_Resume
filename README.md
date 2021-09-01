@@ -1,20 +1,3 @@
-# My_Resume
-
-## __Objectif du projet :__ 
-Création de mon cv sur le web avec React
-
-## __Description :__
-
-J'ai décidé de mettre en ligne mon CV, dans un premier temps pour progresser sur le framework React, et dans un second temps avoir un CV sur internet.
-
-## __Stack utilisé :__
-
-HTML - SCSS - Javascript - React - TYPESCRIPT
-
-## __Lien web du projet :__
-
-Voici un lien pour voir mon CV:
-
 <div align=center><img src="https://user-images.githubusercontent.com/27373255/131180724-f4b371b2-087a-4067-87bf-7550af64d3f5.png" alt="memory-game"/></div>
 <h2 align=center>🎯 Objectif du projet :</h2>
 <p align=center>Il s'agissait de créer un jeu de memory game, en utilisant le langage javascript.</p>
