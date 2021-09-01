@@ -10,7 +10,7 @@ L'avantage d'avoir un CV en ligne est de pouvoir le mettre à jour rapidement et
 </p>
 
 <h2 align=center>👁️ Visuel :</h2>
-<div align=center><img src="https://i.postimg.cc/XvK18NBm/memory.jpg" alt="visuel du jeu"</div>
+<div align=center><img src="https://user-images.githubusercontent.com/27373255/131750619-fab14f33-9a37-4d02-8ca6-4cce4b510996.png" alt="my_resume"</div>
 
 <h2 align=center>💻 Stack utilisé :</h2>
 
